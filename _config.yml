@@ -1,11 +1,11 @@
 # Site settings
-title: 骗人服官网
-SEOTitle: 骗人服官网
+title: 《如何回到出生第一天》官网
+SEOTitle: 《如何回到出生第一天》官网
 header-img: "img/1/图层 2.png"
 email: 2609322291@qq.com
-description: "这里是骗人服官网..........你被骗了，这其实是骗人服官网"
-keyword: "骗人服"
-url: "pianrenfu.us.kg" # your host, for absolute URL
+description: "内含政策、经济数据解析"
+keyword: "《如何回到出生第一天》"
+url: "cs.pianrenfu.top" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
