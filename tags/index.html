@@ -1,0 +1,23 @@
+---
+layout: default
+title: 标签
+---
+
+<h2>标签</h2>
+<ul>
+  {% assign tags_list = site.tags %}
+  {% for tag in tags_list %}
+    <li>
+      <a href="#{{ tag[0] }}">{{ tag[0] }}</a> ({{ tag[1].size }})
+    </li>
+  {% endfor %}
+</ul>
+
+{% for tag in site.tags %}
+  <h3 id="{{ tag[0] }}">{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
